@@ -1,0 +1,32 @@
+<style>
+	input {
+		background-color : red;
+		padding : 14px;
+	}
+	input:hover{
+		background-color:orange
+	}
+	#mijndiv{
+		border: 2px solid green;
+	}
+</style>
+
+<script>
+	function mijnfunctie(parameter){
+		var mijnelement = document.getElementById("mijndiv");
+		mijnelement.innerHTML = "blablabla"+parameter
+	}
+
+</script>
+
+
+<h1> Reference guide - API  - Documentatie </h1>
+
+<textarea cols=200></textarea>
+<input type="button" value=button onclick=mijnfunctie(1)></input>
+<input type="button" value=button onclick=mijnfunctie(2)></input>
+<input type="button" value=button onclick=mijnfunctie(3)></input>
+<input type="button" value=button onclick=mijnfunctie(4)></input>
+<div id=mijndiv></div>
+hoi
+<b>tag html </b>
